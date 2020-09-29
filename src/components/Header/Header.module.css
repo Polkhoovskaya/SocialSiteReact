@@ -1,0 +1,17 @@
+.header {
+    grid-area: h;
+    background-color: aquamarine;
+}
+
+.header img {
+    width: 50px;
+}
+
+.authBlock {
+    float: right;
+}
+
+.authBlock p {
+    color: white;
+    text-decoration: none;
+}

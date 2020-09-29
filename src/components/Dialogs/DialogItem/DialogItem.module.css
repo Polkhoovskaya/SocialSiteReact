@@ -1,0 +1,12 @@
+.dialogs {
+    padding-top: 20px;
+}
+.dialogs .dialog a {
+    text-decoration: none;
+}
+.dialogs .active {
+    color: gold;
+}
+.dialog img {
+    width: 50px;
+}
