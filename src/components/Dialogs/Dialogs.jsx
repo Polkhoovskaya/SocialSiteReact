@@ -5,22 +5,11 @@ import Message from './Message/Message';
 import { Field, reduxForm } from 'redux-form';
 import { Textarea } from '../common/FormsControls/FromsControls';
 import { maxLengthCreator, requiredField } from '../../utils/validators/validators';
-// import { Redirect } from 'react-router-dom';
 
 const maxLength = maxLengthCreator(10);
 
 const DialogsForm = (props) => {
 
-    // let textarea = React.createRef();
-
-    // let addMessage = () => {
-    //     props.addNewMessage();
-    // }
-
-    // let onMessageChange = () => {
-    //     let text = textarea.current.value;
-    //     props.updateNewMessageText(text);
-    // }
     return <div className={s.main}>
         <div className={s.dialogs}>
             {
@@ -32,8 +21,6 @@ const DialogsForm = (props) => {
                 props.messagesData.map(message => <Message message={message.message} key={message.id} />)
             }
             <div>
-                {/* <textarea ref={textarea} onChange={onMessageChange} value={newMessageText} />
-                <button onClick={addMessage}>Add message</button> */}
                 <form onSubmit={props.handleSubmit}>
                     <Field name={'message'} placeholder={"message"} component={Textarea} validate={[requiredField, maxLength]} />
                     <button >Add message</button>

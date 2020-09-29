@@ -1,4 +1,3 @@
-import Axios from 'axios';
 import React from 'react';
 import s from './Users.module.css';
 import * as axios from 'axios';
@@ -6,12 +5,6 @@ import userPhoto from '../../assets/images/avatar.jfif';
 
 
 let Users = ({ users, follow, unFollow, setUsers }) => {
-
-    // let users = [
-    //     { id: 1, photoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR01mUdp62kN2vyu7FWyXLNKdhJSrjnnHsdfQ&usqp=CAU", fullName: "Olga", location: { country: "Belarus", sity: "Minsk" }, status: 'I am so pretty', followed: false },
-    //     { id: 2, photoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR01mUdp62kN2vyu7FWyXLNKdhJSrjnnHsdfQ&usqp=CAU", fullName: "Simon", location: { country: "Turkey", sity: "Istanbul" }, status: 'I am so pretty too', followed: true },
-    //     { id: 3, photoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR01mUdp62kN2vyu7FWyXLNKdhJSrjnnHsdfQ&usqp=CAU", fullName: "Bred", location: { country: "Ukraine", sity: "kiev" }, status: 'I am so pretty too!!!', followed: false }
-    // ];
 
     if (users.length === 0) {
 

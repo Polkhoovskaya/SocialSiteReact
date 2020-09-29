@@ -1,7 +1,6 @@
 import React from 'react';
 import Users from './Users';
 import Preloader from '../common/Preloader/Preloader';
-//import { getUsers } from '../../api/api';
 
 class UsersAPIComponent extends React.Component {
 
@@ -11,37 +10,15 @@ class UsersAPIComponent extends React.Component {
 
     componentDidMount() {
         this.props.getUsersThunkCreator(this.props.currentPage, this.props.pageSize);
-
-        //без thunk
-        // this.props.toggleIsLoading(true);
-
-        // getUsers(this.props.currentPage, this.props.pageSize)
-        //     .then(data => {
-        //         this.props.setUsers(data.items);
-        //         this.props.setTotalUsersCount(data.totalCount);
-        //     }).then(() => {
-        //         this.props.toggleIsLoading(false);
-        //     });
     }
 
     onPageChanget = (page) => {
 
         this.props.setCurrentPage(page);
         this.props.getUsersThunkCreator(page, this.props.pageSize);
-
-        //без thunk
-        // this.props.setCurrentPage(page);
-        // this.props.toggleIsLoading(true);
-
-        // getUsers(page, this.props.pageSize)
-        //     .then(data => {
-        //         this.props.setUsers(data.items);
-        //         this.props.toggleIsLoading(false);
-        //     });
     }
 
     render() {
-        console.log('render');
         return (
             <div>
                 {
