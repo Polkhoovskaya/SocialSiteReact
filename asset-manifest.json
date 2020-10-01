@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/SocialSiteReact/static/css/main.3b0016f0.chunk.css",
+    "main.js": "/SocialSiteReact/static/js/main.ba5c33b7.chunk.js",
+    "main.js.map": "/SocialSiteReact/static/js/main.ba5c33b7.chunk.js.map",
+    "runtime-main.js": "/SocialSiteReact/static/js/runtime-main.48d64a53.js",
+    "runtime-main.js.map": "/SocialSiteReact/static/js/runtime-main.48d64a53.js.map",
+    "static/js/2.447cf27d.chunk.js": "/SocialSiteReact/static/js/2.447cf27d.chunk.js",
+    "static/js/2.447cf27d.chunk.js.map": "/SocialSiteReact/static/js/2.447cf27d.chunk.js.map",
+    "index.html": "/SocialSiteReact/index.html",
+    "precache-manifest.b34cec1e8fd8e6405a1ae17bcd339ada.js": "/SocialSiteReact/precache-manifest.b34cec1e8fd8e6405a1ae17bcd339ada.js",
+    "service-worker.js": "/SocialSiteReact/service-worker.js",
+    "static/css/main.3b0016f0.chunk.css.map": "/SocialSiteReact/static/css/main.3b0016f0.chunk.css.map",
+    "static/js/2.447cf27d.chunk.js.LICENSE.txt": "/SocialSiteReact/static/js/2.447cf27d.chunk.js.LICENSE.txt",
+    "static/media/avatar.jfif": "/SocialSiteReact/static/media/avatar.e9aff503.jfif",
+    "static/media/preloader.svg": "/SocialSiteReact/static/media/preloader.e2f0d919.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48d64a53.js",
+    "static/js/2.447cf27d.chunk.js",
+    "static/css/main.3b0016f0.chunk.css",
+    "static/js/main.ba5c33b7.chunk.js"
+  ]
+}
