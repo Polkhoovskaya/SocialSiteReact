@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { Route, withRouter } from "react-router-dom";
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import DialogsContainer from './components/Dialogs/DialogsContainer';
+
+// const DialogsContainer = React.lazy(() => import('./components/Dialogs/DialogsContainer'));
+
+
 import UsersContainer from './components/Users/UsersContainer';
 import ProfileContainer from './components/Profile/ProfileContainer';
+
+// const ProfileContainer = React.lazy(() => import('./components/Profile/ProfileContainer'));
+
 import HeaderContainer from './components/Header/HeaderContainer';
 import Login from './components/Login/Login';
 import { inintializeAppThunkCreator } from './redux/auth-reducer';
